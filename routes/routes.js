@@ -23,13 +23,7 @@ const verifytoken = (req, res, next) => {
 
 router.get('/api', (req, res) => {
   res.json({
-    messege: 'Welcome to jwt auth..',
-  });
-});
-
-router.get('/', (req, res) => {
-  res.json({
-    messege: 'Welcome to Node RESTFul API',
+    messege: 'Welcome to node restful api..',
   });
 });
 
