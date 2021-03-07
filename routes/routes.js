@@ -21,7 +21,7 @@ const verifytoken = (req, res, next) => {
   }
 };
 
-router.get('/api', (req, res) => {
+router.get('/', (req, res) => {
   res.json({
     messege: 'Welcome to node restful api..',
   });
