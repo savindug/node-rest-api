@@ -27,6 +27,12 @@ router.get('/api', (req, res) => {
   });
 });
 
+router.get('/', (req, res) => {
+  res.json({
+    messege: 'Welcome to Node RESTFul API',
+  });
+});
+
 router.post('/api/post', verifytoken, (req, res) => {
   jwt.verify(req.token, SECRET_KEY, (err, authData) => {
     if (err) {
