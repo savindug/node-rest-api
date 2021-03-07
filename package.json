@@ -6,7 +6,8 @@
   "scripts": {
     "start": "cross-env NODE_ENV=production nodemon app",
     "dev": "cross-env NODE_ENV=development nodemon app",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "data:import": "node /seederScript"
   },
   "author": "",
   "license": "MIT",

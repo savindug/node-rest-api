@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const { deleteOne } = require('../models/User');
 const User = require('../models/User');
 
 const createUser = async (username, email, pwd) => {
